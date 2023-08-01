@@ -1,0 +1,135 @@
+body{
+  color:#40514e
+  margin: auto;
+  text-align: center;
+  font-family: "Merriweather",serif;
+  font-size: 200%;
+}
+h1{
+  font-size: 3.625rem;
+  margin: 0;
+  font-family: "sacremento",cursive;
+  color: #66BFBF;
+}
+h2{
+  font-size: 2rem;
+  font-family: "Monserrat",sans-serif;
+  color: #66BFBF;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+h3{
+  font-family: "Monserrat",sans-serif;
+  color: #11999E;
+}
+hr{
+  border: none;
+  border-top: 20px dotted #eaf6f6;
+  height: 0;
+  width:25%;
+}
+a{
+  color: #11999E;
+  font-family: "Monserrat",sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #eaf6f6;
+}
+/*p{
+  margin-top: -10px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}*/
+.topcontainer{
+  background-color:#eaf6f6;
+  position: relative;
+  padding: 300px 0px;
+  height: 480px;
+  margin: auto;
+}
+.profile{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  line-height: 1;
+}
+.skill-row{
+  width:50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 1;
+}
+.land-surveying{
+  width: 50%;
+  float: left;
+  margin-right:50px;
+/*  margin-bottom:150px;*/
+}
+.programing{
+  width: 50%;
+  float: right;
+  margin-left: 50px;
+  margin-bottom: 150px;
+
+}
+.gis{
+  width: 50%;
+  float: left;
+  margin-right: 50px;
+}
+.contact-me{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  line-height: 1;
+}
+.copyright{
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px;
+}
+/*.profile-img{
+  width: 25%;
+}*/
+.middlecontainer{
+  margin: 100px 0 ;
+
+}
+
+.bottom-container{
+  background-color:#66bfbf;
+  position: relative;
+  padding: 20px 0px;
+  height: 100px;
+
+}
+.cloud-buttom{
+  position: absolute;
+  left: 50px;
+}
+.cloud-top{
+  position: absolute;
+  right: 50px;
+  top: 100px;
+}
+.mountain{
+  position: absolute;
+  left: 350px;
+  top: 800px;
+}
+.contact{
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 50px;
+  background-color: #66bfbf;
+  color: #ffffff;
+  font-family: "Monserrat",sans-serif;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.contact:hover {
+  background-color: #30e3cb;
+}
